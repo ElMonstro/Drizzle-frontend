@@ -1,0 +1,61 @@
+@import 'config';
+
+body {
+    background-color: $primary-color;
+    color: $secondary-color;
+
+}
+
+.header {
+    background-color: $primary-color;
+}
+
+.big-words{
+    
+}
+
+.small-words {
+    font-size: large;
+    margin-top: 30px
+}
+
+#landingpage-message {
+   padding-top: 200px;
+}
+
+#landingpage-image {
+
+    
+    img{
+        height: 600px;
+    }
+}
+
+#landingpage-cont{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#login-btn {
+    border: solid 2px;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 0px 3px 0px 3px;
+    
+
+    :hover {
+        color: $primary-color;
+        background-color: $secondary-color;
+    }
+}
+
+#header {
+    background-color: $primary-color !important;
+    color: $secondary-color !important;
+}
+
+#bottom-bar {
+    height: 95px;
+    background-color: $secondary-color;
+}
