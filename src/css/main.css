@@ -1,0 +1,38 @@
+body {
+  background-color: #fff;
+  color: #334ac0; }
+
+.header {
+  background-color: #fff; }
+
+.small-words {
+  font-size: large;
+  margin-top: 30px; }
+
+#landingpage-message {
+  padding-top: 200px; }
+
+#landingpage-image img {
+  height: 600px; }
+
+#landingpage-cont {
+  display: grid;
+  grid-template-columns: auto auto; }
+
+#login-btn {
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #334ac0;
+  padding: 0px 3px 0px 3px; }
+  #login-btn :hover {
+    color: #fff;
+    background-color: #334ac0; }
+
+#header {
+  background-color: #fff !important;
+  color: #334ac0 !important; }
+
+#bottom-bar {
+  height: 95px;
+  background-color: #334ac0; }
